@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(238, 234, 241, 0.87);
+}
+
+.nav{
+    width: 100%;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    padding: 20px 80px;
+    justify-content: space-between;
+}
+
+.nav a{
+    text-decoration: none;
+}
+.logo{
+    font-size: 32px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.navm{
+    display: flex;
+    text-align: center;
+}
+.navm a{
+    font-size: 20px;
+    padding: 10px 20px;
+    font-weight: bold;
+    text-decoration: none;
+    color: rgba(158, 144, 144, 0.945);
+}
+.username{
+    width: 150px;
+    height: 40px;
+    font-size: 18px;
+    color: rgba(158, 144, 144, 0.945);
+    background-color:rgb(218, 240, 240);
+    padding: 10px 14px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.username i{
+    height: 40px;
+    margin: -10px -20px 0 5px;
+    padding: 10px;
+    border-radius: 0 30px 30px 0;
+    background-color: #bfd4d4e7;
+    cursor: pointer;
+    font-size: 22px;
+}
+
+.hero{
+    width: 80%;
+    height: 100vh;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    width: 49%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.boxtop{
+    height: 49%;
+    background-color: aliceblue;
+    border-radius: 20px;  
+    text-align: center;
+    padding: 13px 0 0 0;
+}
+.boxtop h2{
+    padding: 5px 0 10px;
+}
+.table{
+    padding: 8px;
+}
+.title{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 20px 5px 15px;
+    background-color: #7a7ac05e;
+}
+.titleA{
+    display: flex;
+    gap: 10px;
+}
+.addCart{
+    width: 100%;
+    height: 190px;
+    font-size: large;
+    font-weight: bold;
+}
+
+ul{
+    list-style: none;
+}
+
+.boxtop i{
+    margin: 30px 0 19px;
+}
+.total{
+    padding: 2% 4%;
+    font-size: larger;
+    font-weight: 800;
+    display: flex;
+    justify-content: space-between;
+}
+.a{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    padding: 5px
+    
+}
+.b{
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+}
+.total i{
+    margin-top: -0.1px;
+    padding: 5px 10%;
+}
+.boxbtm{
+    height: 49%;
+    background-color:  aliceblue;
+    margin-top: -3px;
+    border-radius: 20px; 
+    padding: 5px 15px;
+}
+.boxbtm h2{
+    padding: 10px 0 15px;
+}
+label{
+    font-size: 18px;
+    font-weight: bold;
+}
+.fullname{
+    width: 100%;
+    padding: 9px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 9px;
+    border: none;
+    margin: 0 0 10px;
+}
+.inp{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.inp input{
+   font-size: large;
+    padding: 9px ;
+    font-weight: bold;
+    border-radius: 9px;
+    border: none;
+    margin: 0 0 10px;
+}
+.btn{
+    width: 100%;
+    height: 44px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 9px;
+    font-weight: bold;
+    font-size: large;
+    color: #356969;
+    background-color: #6cc5c5;
+    cursor: pointer;
+}
+
+.box1{
+    width: 49%;
+    background-color:  aliceblue;
+    border-radius: 20px;
+    padding: 25px;
+}
+
+.box1 p{
+    font-weight: bold;
+    padding: 8px 0 50px;
+    
+
+}
+#images{
+    height: 340px;
+    width: 100%;
+}
+.box1 img{
+    height: 340px;
+    width: 100%;
+    padding: 29px 10px 15px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+#imageSData{
+    display: flex;
+    font-size: 22px;
+    justify-content: space-between;
+    padding-bottom: 15px;
+}
+.skipitembtn{
+    width: 35%;
+    height: 49px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(212, 220, 226, 0.678);
+    font-weight: bold;
+    
+}
+.additembtn{
+    width: 63%;
+    height: 49px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border: none;
+    background-color: rgba(183, 198, 211, 0.678);
+    font-weight: bold;
+}
+.additembtn i{
+    padding: 0 5px;
+}
+.skipitembtn i{
+    padding: 0 5px;
+}
+.additem{
+    margin-top: 20px;
+}
